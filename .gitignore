@@ -1,5 +1,8 @@
-# Custom
+# Custom Files
 .DS_Store
+
+# Custom Directories
+credentials
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
