@@ -1,0 +1,12 @@
+site_name: MiamiLost
+
+theme:
+  name: material
+  logo: assets/miamilost.png
+  favicon: assets/miamilost.png
+  palette:
+    scheme: slate
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
