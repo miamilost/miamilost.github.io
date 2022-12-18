@@ -6,6 +6,8 @@ theme:
   favicon: assets/miamilost.png
   palette:
     scheme: slate
+    primary: black
+    accent: orange
   features:
     - navigation.instant
     - navigation.tabs
