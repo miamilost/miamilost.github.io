@@ -2,11 +2,45 @@ site_name: MiamiLost
 
 theme:
   name: material
-  logo: assets/miamilost.png
-  favicon: assets/miamilost.png
+  custom_dir: overrides
+  logo: assets/logos/miamilost.logo.small.png
+  favicon: assets/logos/miamilost.logo.small.png
   palette:
     scheme: slate
+    primary: black
+    accent: orange
   features:
+    - header.autohide
     - navigation.instant
+    - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
+
+markdown_extensions:
+  - admonition
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+
+nav:
+  - Home: "index.md"
+  - Overview: "overview.md"
+  - Analysis:
+      - Introduction: "pages/analysis/00.introduction.md"
+      - References:
+          - Publications: "pages/analysis/references/00.publications.md"
+          - Datasets: "pages/analysis/references/01.datasets.md"
+          - Libraries: "pages/analysis/references/02.libraries.md"
+          - Services: "pages/analysis/references/03.services.md"
+          - Tools: "pages/analysis/references/04.tools.md"
+  - Information:
+      - Authors: "pages/information/00.authors.md"
+      - Acknowledgements: "pages/information/01.acknowledgements.md"
+      - New Worlds: "pages/information/02.new-worlds.md"
+  - Resources:
+      - Files: "pages/resources/00.files.md"
+      - Datasets: "pages/resources/01.datasets.md"
+      - Repositories: "pages/resources/02.documentation.md"
+      # - Documentation:
+  - Contact: "contact.md"
