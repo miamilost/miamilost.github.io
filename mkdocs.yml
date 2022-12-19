@@ -3,8 +3,8 @@ site_name: MiamiLost
 theme:
   name: material
   custom_dir: overrides
-  logo: assets/miamilost.png
-  favicon: assets/miamilost.png
+  logo: assets/logos/miamilost.png
+  favicon: assets/logos/miamilost.png
   palette:
     scheme: slate
     primary: black
