@@ -41,6 +41,6 @@ nav:
   - Resources:
       - Files: "pages/resources/00.files.md"
       - Datasets: "pages/resources/01.datasets.md"
-      - Repositories: "pages/resources/02.repositories.md"
+      - Repositories: "pages/resources/02.documentation.md"
       # - Documentation:
   - Contact: "contact.md"
