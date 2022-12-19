@@ -26,7 +26,7 @@ markdown_extensions:
 nav:
   - Home: "index.md"
   - Analysis:
-      - Introduction: "pages/analysis/01.introduction.md"
+      - Introduction: "pages/analysis/00.introduction.md"
       - References:
           - Publications: "pages/analysis/references/00.publications.md"
           - Datasets: "pages/analysis/references/01.datasets.md"
