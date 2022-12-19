@@ -3,8 +3,8 @@ site_name: MiamiLost
 theme:
   name: material
   custom_dir: overrides
-  logo: assets/logos/miamilost.png
-  favicon: assets/logos/miamilost.png
+  logo: assets/logos/miamilost.logo.small.png
+  favicon: assets/logos/miamilost.logo.small.png
   palette:
     scheme: slate
     primary: black
@@ -25,24 +25,22 @@ markdown_extensions:
 
 nav:
   - Home: "index.md"
-  - About:
-      - Overview: "pages/about/00.overview.md"
-      - Authors: "pages/about/01.authors.md"
-      - New Worlds: "pages/about/02.new-worlds.md"
-      - Acknowledgements: "pages/about/03.acknowledgements.md"
-      - Contact: "pages/about/04.contact.md"
+  - Overview: "overview.md"
   - Analysis:
       - Introduction: "pages/analysis/00.introduction.md"
-  # - Documentation:
-  - References:
-      - Publications: "pages/references/00.publications.md"
-      - Datasets: "pages/references/01.datasets.md"
-      - Libraries: "pages/references/02.libraries.md"
-      - Services: "pages/references/03.services.md"
+      - References:
+          - Publications: "pages/analysis/references/00.publications.md"
+          - Datasets: "pages/analysis/references/01.datasets.md"
+          - Libraries: "pages/analysis/references/02.libraries.md"
+          - Services: "pages/analysis/references/03.services.md"
+          - Tools: "pages/analysis/references/04.tools.md"
+  - Information:
+      - Authors: "pages/information/00.authors.md"
+      - Acknowledgements: "pages/information/01.acknowledgements.md"
+      - New Worlds: "pages/information/02.new-worlds.md"
   - Resources:
-      - Repositories: "pages/resources/00.repositories.md"
-      - Files: "pages/resources/01.files.md"
-      - Datasets: "pages/resources/02.datasets.md"
-      - Discussions: "pages/resources/03.discussions.md"
-      - Tools: "pages/resources/04.tools.md"
-  - Pages: "pages.md"
+      - Files: "pages/resources/00.files.md"
+      - Datasets: "pages/resources/01.datasets.md"
+      - Repositories: "pages/resources/02.repositories.md"
+      # - Documentation:
+  - Contact: "contact.md"
