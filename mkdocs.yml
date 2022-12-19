@@ -33,7 +33,7 @@ nav:
       - Contact: "pages/about/04.contact.md"
   - Analysis:
       - Introduction: "pages/analysis/00.introduction.md"
-  # - Docs:
+  # - Documentation:
   - References:
       - Publications: "pages/references/00.publications.md"
       - Datasets: "pages/references/01.datasets.md"
