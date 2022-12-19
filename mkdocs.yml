@@ -25,21 +25,25 @@ markdown_extensions:
 
 nav:
   - Home: "index.md"
-  - About:
-      - Overview: "pages/about/00.overview.md"
-      - New Worlds 2022: "pages/information/02.new-worlds-2022.md"
-      - Page Directory: "pages/about/02.page-directory.md"
   - Analysis:
-      - Introduction: "pages/analysis/00.introduction.md"
+      - Introduction: "pages/analysis/01.introduction.md"
       - References:
           - Publications: "pages/analysis/references/00.publications.md"
           - Datasets: "pages/analysis/references/01.datasets.md"
           - Libraries: "pages/analysis/references/02.libraries.md"
           - Services: "pages/analysis/references/03.services.md"
-          - Tools: "pages/analysis/references/04.tools.md"
+  - Context:
+      - Overview: "pages/analysis/00.overview.md"
+      # - Authors:
+      # - Acknowledgements:
+      # - New Worlds 2022: "pages/info/01.new-worlds-2022.md"
   - Resources:
+      - Pages: "pages/info/02.page-directory.md"
       - Files: "pages/resources/00.files.md"
       - Datasets: "pages/resources/01.datasets.md"
-      - Repositories: "pages/resources/02.documentation.md"
-      # - Documentation:
-  - Contact: "contact.md"
+      # - Issues (github discussions/issues)
+      - Repositories:
+      # "pages/resources/02.documentation.md"
+      # - Repositories:
+  - Contact:
+      - Contact Methods: "pages/contact/contact-methods.md"
