@@ -45,4 +45,4 @@ nav:
       - Datasets: "pages/resources/02.datasets.md"
       - Discussions: "pages/resources/03.discussions.md"
       - Tools: "pages/resources/04.tools.md"
-  - Site: "site.md"
+  - Pages: "pages.md"
