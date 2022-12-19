@@ -26,4 +26,23 @@ markdown_extensions:
 nav:
   - Home: "index.md"
   - About:
-      - Overview: "pages/about/overview.md"
+      - Overview: "pages/about/00.overview.md"
+      - Authors: "pages/about/01.authors.md"
+      - New Worlds: "pages/about/02.new-worlds.md"
+      - Acknowledgements: "pages/about/03.acknowledgements.md"
+      - Contact: "pages/about/04.contact.md"
+  - Analysis:
+      - Introduction: "pages/analysis/00.introduction.md"
+  # - Docs:
+  - References:
+      - Publications: "pages/references/00.publications.md"
+      - Datasets: "pages/references/01.datasets.md"
+      - Libraries: "pages/references/02.libraries.md"
+      - Services: "pages/references/03.services.md"
+  - Resources:
+      - Repositories: "pages/resources/00.repositories.md"
+      - Files: "pages/resources/01.files.md"
+      - Datasets: "pages/resources/02.datasets.md"
+      - Discussions: "pages/resources/03.discussions.md"
+      - Tools: "pages/resources/04.tools.md"
+  - Site: "site.md"
