@@ -25,3 +25,5 @@ markdown_extensions:
 
 nav:
   - Home: "index.md"
+  - About:
+      - Overview: "pages/about/overview.md"
