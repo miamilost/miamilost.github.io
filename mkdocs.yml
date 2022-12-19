@@ -25,7 +25,10 @@ markdown_extensions:
 
 nav:
   - Home: "index.md"
-  - Overview: "overview.md"
+  - About:
+      - Overview: "pages/about/00.overview.md"
+      - New Worlds 2022: "pages/information/02.new-worlds-2022.md"
+      - Page Directory: "pages/about/02.page-directory.md"
   - Analysis:
       - Introduction: "pages/analysis/00.introduction.md"
       - References:
@@ -34,10 +37,6 @@ nav:
           - Libraries: "pages/analysis/references/02.libraries.md"
           - Services: "pages/analysis/references/03.services.md"
           - Tools: "pages/analysis/references/04.tools.md"
-  - Information:
-      - Authors: "pages/information/00.authors.md"
-      - Acknowledgements: "pages/information/01.acknowledgements.md"
-      - New Worlds: "pages/information/02.new-worlds.md"
   - Resources:
       - Files: "pages/resources/00.files.md"
       - Datasets: "pages/resources/01.datasets.md"
