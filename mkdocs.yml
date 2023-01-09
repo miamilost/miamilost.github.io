@@ -42,7 +42,7 @@ nav:
       - Files: "pages/resources/00.files.md"
       - Datasets: "pages/resources/01.datasets.md"
       # - Issues (github discussions/issues)
-      - Repositories:
+      # - Repositories:
       # "pages/resources/02.documentation.md"
       # - Repositories:
   - Contact:
